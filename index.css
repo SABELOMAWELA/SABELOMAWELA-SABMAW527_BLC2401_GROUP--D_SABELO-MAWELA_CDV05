@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+:root{
+    --moveable:absolute;
+    --size:40px;
+    --full:80%;
+    }
+    
+  nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+body {
+    justify-content: center;
+    display: flex;
+    background-color: #f8f8f8;
+}
+    
+    
+    
+.navbar {
+    display: flex;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    padding: 10px;
+    width: var(--full);
+    position: fixed;
+    top: 0;
+    left: auto;
+    margin: 0 auto;
+}
+
+
+    .navlist {
+        font-family: "Roboto mono" ;
+        display: grid;
+        font-size:25px;
+        color: #212121;
+        text-decoration: none;
+        float: right;
+        margin-right: 40px;
+    }
+    .home {
+        background-color:#79031D;
+        color: #f8f8f8;
+        padding: 28px;
+        font-size: 25px;
+        margin-left: 55px;
+        text-decoration: none;
+    }
+    .home:hover{
+        color:#79031D;
+        font-size:10px;
+        transition: 1s;
+        padding: 55px;
+        overflow: hidden;
+    
+    }
+    .navimg{
+        width: 50px;
+        height: 50px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-rows: 1fr,4fr;
+        column-gap: 5px;
+        row-gap: 10px;
+        margin-top: 80px;
+      }
+      
+      .grid-item {
+        display: grid;
+        padding: 10px;
+      }
+
+      
+      .Portfolio{
+    height: 250px;
+    border-radius: 50%;
+    justify-self: center;
+}
+
+.intro {
+    font-family: 'Poppins';
+    font-size: 60px;
+    margin: 0;
+    justify-self: center;
+}
+
+.name{
+    font-family: "Marlin Sans Extra Bold";
+    font-size: larger;
+    color: #79031D;
+}
+.shortstory{
+    color: #989898;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.intro-div{
+    display: grid;
+    /* inline-size: 1; */
+    justify-self: center;
+}
+.shortstory-div{
+    display: grid;
+    max-width: 700px;
+}
+.container{
+    display:grid;
+}
+.container .btn {
+
+    background-color: #79031D;
+    color: #f8f8f8;
+    font-size: 25px;
+    width: 200px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    justify-self: center;
+    font-family: 'Poppins';
+}
+  
+  .container .btn:hover {
+    background-color: #f8f8f8;
+    color: #79031D;
+  }
