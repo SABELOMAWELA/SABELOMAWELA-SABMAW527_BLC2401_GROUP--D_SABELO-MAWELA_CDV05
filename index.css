@@ -165,7 +165,7 @@ body {
     background-color: #f8f8f8;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
     justify-self: center;
 }
 .icon {
@@ -207,5 +207,24 @@ body {
     margin-left: 0;
     color: #79031D;
 }
-
-
+.container2 {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    gap: 70px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    /* margin-top: 1600px; */
+}
+.section{
+    display: flex;
+}
+.Title {
+    font-weight: 700;
+    margin:0 15px;
+    font-size: 30px;
+    font-family: 'Poppins';
+    color: #79031D;
+}
