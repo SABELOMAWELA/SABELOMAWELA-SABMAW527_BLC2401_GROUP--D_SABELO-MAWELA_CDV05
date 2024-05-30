@@ -6,6 +6,10 @@
     --size:40px;
     --full:80%;
     }
+    html {
+        overflow-y: scroll;
+        overflow-x: hidden;
+      }
     
   nav{
     display: flex;
@@ -16,6 +20,11 @@ body {
     justify-content: center;
     display: flex;
     background-color: #f8f8f8;
+    height: fit-content;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
 }
     
     
@@ -118,7 +127,7 @@ body {
     background-color: #79031D;
     color: #f8f8f8;
     font-size: 25px;
-    width: 200px;
+    width: 250px;
     padding: 8px 15px;
     border: none;
     cursor: pointer;
@@ -132,3 +141,71 @@ body {
     background-color: #f8f8f8;
     color: #79031D;
   }
+  .myskill {
+    position: absolute;
+    margin-top: 1000PX;
+    background-color: black;
+    width: var(--full);
+    /* padding:1500px; */
+    color: white;
+
+   }
+   .grid-container1 {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 20px;
+    /* margin-top: 1600px; */
+}
+.column {
+    
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    justify-self: center;
+}
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.title {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Poppins';
+    color: #79031D;
+}
+.description {
+    font-weight: bold;
+    color: #989898;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#cards {
+    display: flex;
+    padding-top: 150px;
+    flex-direction: column;
+    width: 80%;
+    padding-bottom: 150px;
+}
+.cards-img{
+    width: 45px;
+}
+
+
+.grid-containeR{
+    display: grid;
+}
+.services{
+    font-family: 'Poppins';
+    font-size: 60px;
+    justify-self: center;
+    margin-left: 0;
+    color: #79031D;
+}
+
+
