@@ -17,14 +17,14 @@
       defer
     ></script>
     <link rel="stylesheet" href="index.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
   </head>
   <body>
     <section class="navbar">
       <nav>
         <div>
-          <a href class="home">HIRE ME</a>
+          <a href="#" class="home" data-bs-toggle="modal" data-bs-target="#hireMeModal">HIRE ME</a>
         </div>
-
         <div>
           <a href="#aboutme" class="navlist">Works</a>
           <a href="#myskill" class="navlist">Technologies</a>
@@ -33,7 +33,33 @@
         </div>
       </nav>
     </section>
-
+    <div class="modal fade" id="hireMeModal" tabindex="-1" aria-labelledby="hireMeModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="hireMeModalLabel">Contact Me</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <section class="grid-container">
       <div class="grid-item">
         <img src="image/555555555555.jpg" class="Portfolio" />
@@ -257,4 +283,14 @@
       </div>
     </section>
   </body>
+  <footer>
+    <div class="footer-content">
+        <a href="https://linkedin.com/in/sabelo-mawela-480793296" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/SABELOMAWELA" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+    </div>
+</footer>
 </html>

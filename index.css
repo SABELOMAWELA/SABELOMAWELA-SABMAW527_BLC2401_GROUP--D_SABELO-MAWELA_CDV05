@@ -263,6 +263,35 @@ body {
     font-family: 'Poppins';
     text-decoration-line: none;
 }
+footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+}
 
+.footer-content {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-content a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    color: #0073b1; /* LinkedIn color */
+}
+
+.footer-content a:nth-child(2):hover {
+    color: #333; /* GitHub color */
+}
 
   
