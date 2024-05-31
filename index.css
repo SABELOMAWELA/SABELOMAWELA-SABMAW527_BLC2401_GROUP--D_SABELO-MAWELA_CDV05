@@ -128,8 +128,8 @@ body {
     background-color: #79031D;
     color: #f8f8f8;
     font-size: 25px;
-    width: 250px;
-    padding: 8px 15px;
+    width: 270px;
+    padding: 8px 0px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -236,4 +236,16 @@ body {
 .row{
     width: 50%;
     justify-self: center;
+}
+.carousel-control-prev {
+    left: 0;
+    height: 100px;
+    background-color: #79031D;
+    margin: 110px 0;
+}
+.carousel-control-next {
+    right: 0;
+    height: 100px;
+    background-color: #79031D;
+    margin: 110px 0;
 }
