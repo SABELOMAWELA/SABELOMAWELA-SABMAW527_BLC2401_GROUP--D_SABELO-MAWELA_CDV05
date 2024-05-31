@@ -249,4 +249,20 @@ body {
     background-color: #79031D;
     margin: 110px 0;
 }
+.btn-btn {
+    background-color: #79031D;
+    color: #f8f8f8;
+    font-size: 25px;
+    width: 75px;
+    padding: 2px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 51px;
+    text-align: center;
+    justify-self: center;
+    font-family: 'Poppins';
+    text-decoration-line: none;
+}
 
+
+  
