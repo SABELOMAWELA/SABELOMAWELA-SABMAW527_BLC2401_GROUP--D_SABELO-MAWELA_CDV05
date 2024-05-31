@@ -39,6 +39,7 @@ body {
     top: 0;
     left: auto;
     margin: 0 auto;
+    z-index: 1000;
 }
 
 
@@ -216,7 +217,7 @@ body {
     max-width: 1200px;
     width: 100%;
     padding: 20px;
-    /* margin-top: 1600px; */
+    margin-bottom: 150px;
 }
 .section{
     display: flex;
@@ -227,4 +228,12 @@ body {
     font-size: 30px;
     font-family: 'Poppins';
     color: #79031D;
+}
+.min-vh-100 {
+    min-height: 100vh !important;
+    display: grid;
+}
+.row{
+    width: 50%;
+    justify-self: center;
 }
