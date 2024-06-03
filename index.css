@@ -270,6 +270,36 @@ body {
     font-family: 'Poppins';
     text-decoration-line: none;
 }
+.modal-header{
+    color: #f5f5dc;
+    background-color: #333;
+}
+
+.mb-3{
+    color:#333;
+}
+.modal-body{
+    background-color: var(--background-color);
+    
+}
+.btn-close{
+
+background-color:var(--background-color);
+}
+.btn-primary{
+    background-color:  var(--button-color);
+    color: var(--background-color);
+    font-size: 25px;
+    width: 75px;
+    padding: 2px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 51px;
+    text-align: center;
+    justify-self: center;
+    font-family: 'Poppins';
+    text-decoration-line: none; 
+}
 
 footer {
     width: 100%;
@@ -295,9 +325,12 @@ footer {
 }
 
 .footer-content a:hover {
-    color: #0073b1; /* LinkedIn color */
+    color: var(--text-color);
 }
 
 .footer-content a:nth-child(2):hover {
-    color: #333; /* GitHub color */
+    color:  var(--text-color); 
 }
+.footer-content a:nth-child(3):hover{
+    color:  var(--text-color);
+} 
