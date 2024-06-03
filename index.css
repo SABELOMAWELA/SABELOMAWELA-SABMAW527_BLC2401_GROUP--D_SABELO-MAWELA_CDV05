@@ -334,3 +334,10 @@ footer {
 .footer-content a:nth-child(3):hover{
     color:  var(--text-color);
 } 
+.mywork{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.id{
+padding-top: 150px;
+}
