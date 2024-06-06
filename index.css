@@ -528,6 +528,37 @@ padding-bottom: 150px;
     .portfolio {
         height: 150px;
     }
+    .grid-container1 {
+        grid-template-columns: 1fr;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    #id {
+        padding-top: 0px;
+        padding-bottom: 0px;
+       
+    }
+    .mywork {
+        /* padding-top: 100px; */
+        padding-bottom: 150px;
+    }
+
+    .container2 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .section {
+
+    display: inline-grid;
+    }
+
+     .cards-img{
+      justify-self: center;
+    }
+
+  .Title{
+    justify-self: center;
+    }
 }
 
 
