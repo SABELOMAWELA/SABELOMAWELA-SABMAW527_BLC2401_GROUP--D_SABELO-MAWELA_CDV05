@@ -430,12 +430,40 @@ padding-bottom: 150px;
         width: 200px;
     }
 
-    .grid-container1, .container2 {
+    .grid-container1 {
         grid-template-columns: 1fr;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    #id {
+        padding-top: 150px;
+        padding-bottom: 0px;
+       
+    }
+    .mywork {
+        /* padding-top: 100px; */
+        padding-bottom: 150px;
     }
 
+    .container2 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .section {
+
+    display: inline-grid;
+    }
+
+     .cards-img{
+      justify-self: center;
+    }
+
+  .Title{
+    justify-self: center;
+    }
     .title {
         font-size: 24px;
+       
     }
 
     .description {
@@ -451,8 +479,9 @@ padding-bottom: 150px;
     }
 
     .intro-div, .shortstory-div {
-        padding: 20px;
-        max-width: 100%;
+        padding: 10px;
+        max-width: 90%;
+        justify-self: center;
     }
 
     .min-vh-100 {
@@ -480,7 +509,8 @@ padding-bottom: 150px;
 
     .container .btn {
         font-size: 18px;
-        width: 150px;
+        width: 160px;
+        padding: 5px;
     }
 
     .title {
