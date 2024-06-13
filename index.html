@@ -10,46 +10,48 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-      defer
-    ></script>
+   
     <link rel="stylesheet" href="index.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       rel="stylesheet"
     />
+   
   </head>
   <body>
     <section class="navbar">
       <nav>
         <div>
-          <a
+            <a
             href="#"
             class="home"
             data-bs-toggle="modal"
             data-bs-target="#hireMeModal"
             >HIRE ME</a
           >
+          </div>
+
+          <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          
+          <div class="nav-container">
+            <a href="#mywork" class="navlist" id="navlist">Works</a>
+            <a href="#id" class="navlist">Technologies</a>
+            <a href="#cards" class="navlist">Services</a>
+            <a href="#" class="navlist">Home</a>
+          </div>
         </div>
-        <div>
-          <a href="#mywork" class="navlist">Works</a>
-          <a href="#id" class="navlist">Technologies</a>
-          <a href="#cards" class="navlist">Services</a>
-          <a href="#" class="navlist">Home</a>
-        </div>
-   
+    
       </nav>
-      
+    
     </section>
     <div
       class="modal fade"
       id="hireMeModal"
-      tabindex="-1"
-      aria-labelledby="hireMeModalLabel"
-      aria-hidden="true"
+      tabindex="-1" 
     >
       <div class="modal-dialog">
         <div class="modal-content">
@@ -331,5 +333,11 @@
       </a>
     </div>
   </footer>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"
+  defer
+></script>
   <script src="index.js"></script>
 </html>
