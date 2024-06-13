@@ -356,7 +356,7 @@ footer {
     padding-bottom: 150px;
 }
 .span{
-    margin-left: -4%;
+    margin-left: -2%;
 }
 #id{
 padding-top: 150px;
@@ -612,6 +612,9 @@ padding-bottom: 150px;
 
   .Title{
     justify-self: center;
+    }
+    .span{
+        margin-left: -2%;
     }
 }
 
