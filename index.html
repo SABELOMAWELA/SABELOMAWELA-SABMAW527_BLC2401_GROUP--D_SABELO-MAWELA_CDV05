@@ -67,7 +67,7 @@
             ></button>
           </div>
           <div class="modal-body">
-            <form  id="hireMe" action="https://formsubmit.co/40e350a7e2b6f983a69918fa1f0057e0" method="POST" >
+            <form  id="hireMe"  >
               <div class="mb-3"> 
                 <label for="name" class="form-label">Name</label>
                 <input type="text" class="form-control" id="name" name="name" required />
@@ -77,14 +77,8 @@
                 <input type="email" class="form-control" id="email" name="email" required />
               </div>
               <div class="mb-3">
-                <label for="message" class="form-label">Message</label>
-                <textarea
-                  class="form-control"
-                  id="message"
-                  rows="3"
-                  required
-                  name="Message"
-                ></textarea>
+                <label for="message" class="form-label" name >Message</label>
+                <textarea class="form-control" id="message" rows="3" type="message" name="Message" required ></textarea>
               </div>
               <button type="submit" class="btn-primary">Send</button>
             </form>
